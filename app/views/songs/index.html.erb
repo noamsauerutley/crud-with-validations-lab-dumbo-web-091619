@@ -1,0 +1,12 @@
+<h1>All the Songs</h1>
+<url>
+<tbody>
+<% @songs.each do |song| %>
+    <tr>
+<td>Title: <%= song.title %> </td>
+<br>
+<td>Artist: <%= song.artist_name %></td>
+</tr>
+<% end %>
+</url>
+</tbody>
